@@ -56,3 +56,54 @@ ul {
     color: white;
   }
 
+  .writing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-top: 70px;
+   justify-content: center;
+   align-items: center;
+   margin-right: 50px;
+  }
+
+  .writing > h2, p{
+    color: white;
+}
+.writing > h2{
+    font-size: 60px;
+    font-weight: 0px;
+}
+.writing > p{
+    font-size: 20px;
+    
+}
+
+  .btns{
+    /* margin-bottom: 30px 30px; */
+    display: flex;
+    margin-top: 30px;
+}
+.btn1{
+    border-radius: 25px;
+    padding: 13px;
+    background-color: rgb(16, 179, 233);
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    margin-right: 15px;
+    height: 5vh;
+}
+.btn2{
+    border-radius: 25px;
+    height: 3vh;
+    padding: 13px;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+
+
+
