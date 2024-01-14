@@ -12,7 +12,47 @@ body{
 }
 
 .sectionA{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/hero.png');
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
 }
+
+.right-nav > h2{
+    color: rgb(175, 166, 154);
+}
+
+.color{
+    background-color: rgb(4, 4, 194);
+    height: 4.5vh;
+    border-radius: 5px;
+}
+
+.right-nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    color: white;
+}
+
+.brand{
+    margin-top: 10px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  .urls>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    color: white;
+  }
+
