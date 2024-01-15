@@ -124,3 +124,19 @@ body{
     background-color: rgb(13, 186, 244);
     color: white;
 }
+
+.left-card-text{
+    color: white;
+    font-size: 18px;
+}
+
+.card img {
+    /* width: 100%; */
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
