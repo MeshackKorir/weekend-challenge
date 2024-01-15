@@ -167,3 +167,21 @@ body{
     height: 50vh;
     margin-top: 20px;
 }
+
+.left-card2-text{
+    color: rgb(156, 170, 182);
+    font-size: 18px;
+}
+.card2 img {
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.card2-content {
+    padding: 20px;
+}
+.card2-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
