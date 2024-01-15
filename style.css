@@ -418,4 +418,37 @@ body{
     flex-wrap: wrap;
 }
 
+/* section6 */
+.section6{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #240643;
+    /* flex-wrap: wrap; */
+    margin-bottom: 30px;
+    height: 80vh;
+    gap: 30px;
+}
+.words{
+    margin-top: 70px;
+}
+
+.words>h2,p{
+    color: white;
+}
+.words>p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.words>h2{
+    font-size: 40px;
+}
+
+.map{
+    margin-top: 80px;
+}
+
+
 
