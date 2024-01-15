@@ -527,6 +527,7 @@ body{
     margin-top: 20px;
     /* margin-left: 50px; */
 }
+
 .consult>p{
     color: gray;
     font-size: 18px;
@@ -553,5 +554,18 @@ body{
     flex-wrap: wrap;
     margin: 40px 50px;
 }
+
+.column{
+    color: rgb(13, 13, 13);
+}
+
+.column>p{
+    color: gray;
+    padding: 7px;
+}
+.column>h2{
+    color: rgb(67, 66, 66);
+}
+
 
 
