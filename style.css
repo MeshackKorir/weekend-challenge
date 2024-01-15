@@ -567,5 +567,34 @@ body{
     color: rgb(67, 66, 66);
 }
 
+/* last section */
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 50px ;
+    
+}
+.last-section>p{
+    color: rgb(69, 66, 66);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 200px) {
+    .btn2{
+        border: 1px solid black;
+        color: black;
+    }
+    .card{
+        margin-top: 300px;
+    }
+    .sectionA{
+        flex-wrap: wrap;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+  }
+
 
 
