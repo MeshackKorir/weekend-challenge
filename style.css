@@ -108,6 +108,19 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: -80px;
-    margin-bottom: 30px;
-   
+    margin-bottom: 30px;  
+}
+
+.card{
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+    margin-top: 20px;
+}
+
+#left-card{
+    background-color: rgb(13, 186, 244);
+    color: white;
 }
